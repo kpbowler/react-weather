@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'WeatherIcons';
+    src: url('fonts/artillcleanweathericons-Regular.eot');
+    src: url('fonts/artillcleanweathericons-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/artillcleanweathericons-Regular.svg#artillcleanweathericons-Regular') format('svg'),
+         url('fonts/artillcleanweathericons-Regular.ttf') format('truetype'),
+         url('fonts/artillcleanweathericons-Regular.woff') format('woff'),
+         url('fonts/artillcleanweathericons-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+  .CurrentObservation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .CurrentObservation .text {
+    font-size:2em;
+  }
+
+  .CurrentObservation .degrees {
+    font-family: 'WeatherIcons';
+    font-size:1.5em;
+  }
+  .CurrentObservation .degrees::before {
+      content: "\203A";
+      margin-right: 5px;
+  }
+
+.CurrentObservation .condition {
+    font-family: 'WeatherIcons';
+    font-size:5em;
+}
+
+.CurrentObservation .condition.code-0::before {
+    content: ":";
+}
+.CurrentObservation .condition.code-1::before {
+    content: "Q";
+}
+.CurrentObservation .condition.code-2::before {
+    content: "Q";
+}
+.CurrentObservation .condition.code-3::before {
+    content: "S";
+}
+.CurrentObservation .condition.code-4::before {
+    content: "Y";
+}
+.CurrentObservation .condition.code-5::before {
+    content: "U";
+}
+.CurrentObservation .condition.code-6::before {
+    content: "W";
+}
+.CurrentObservation .condition.code-7::before {
+    content: "W";
+}
+.CurrentObservation .condition.code-8::before {
+    content: "M \201C";
+}
+.CurrentObservation .condition.code-9::before {
+    content: "M";
+}
+.CurrentObservation .condition.code-10::before {
+    content: "5 \201C";
+}
+.CurrentObservation .condition.code-11::before {
+    content: "L";
+}
+.CurrentObservation .condition.code-12::before {
+    content: "G";
+}
+.CurrentObservation .condition.code-13::before {
+    content: "I";
+}
+.CurrentObservation .condition.code-14::before {
+    content: "I";
+}
+.CurrentObservation .condition.code-15::before {
+    content: "I,";
+}
+.CurrentObservation .condition.code-16::before {
+    content: "I";
+}
+.CurrentObservation .condition.code-17::before {
+    content: "O";
+}
+.CurrentObservation .condition.code-18::before {
+    content: "W";
+}
+.CurrentObservation .condition.code-19::before {
+    content: "Z"
+}
+.CurrentObservation .condition.code-20::before {
+    content: "C"
+}
+.CurrentObservation .condition.code-21::before {
+    content: "\2026"
+}
+.CurrentObservation .condition.code-22::before {
+    content: "\2026"
+}
+.CurrentObservation .condition.code-23::before {
+    content: ","
+}
+.CurrentObservation .condition.code-24::before {
+    content: ","
+}
+.CurrentObservation .condition.code-25::before {
+    content: "\201C"
+}
+.CurrentObservation .condition.code-26::before {
+    content: "3"
+}
+.CurrentObservation .condition.code-27::before {
+    content: "3"
+}
+.CurrentObservation .condition.code-28::before {
+    content: "a"
+}
+.CurrentObservation .condition.code-29::before {
+    content: "3"
+}
+.CurrentObservation .condition.code-30::before {
+    content: "2"
+}
+.CurrentObservation .condition.code-31::before {
+    content: "6"
+}
+.CurrentObservation .condition.code-32::before {
+    content: "1"
+}
+.CurrentObservation .condition.code-33::before {
+    content: "6"
+}
+.CurrentObservation .condition.code-34::before {
+    content: "2"
+}
+.CurrentObservation .condition.code-35::before {
+    content: "U"
+}
+.CurrentObservation .condition.code-36::before {
+    content: "\2018"
+}
+.CurrentObservation .condition.code-37::before {
+    content: "S"
+}
+.CurrentObservation .condition.code-38::before {
+    content: "S"
+}
+.CurrentObservation .condition.code-39::before {
+    content: "L"
+}
+.CurrentObservation .condition.code-40::before {
+    content: "K"
+}
+.CurrentObservation .condition.code-41::before {
+    content: "H"
+}
+.CurrentObservation .condition.code-42::before {
+    content: "I"
+}
+.CurrentObservation .condition.code-43::before {
+    content: "I"
+}
+.CurrentObservation .condition.code-44::before {
+    content: "\007D"
+}
+.CurrentObservation .condition.code-45::before {
+    content: "m"
+}
+.CurrentObservation .condition.code-46::before {
+    content: "i"
+}
+.CurrentObservation .condition.code-47::before {
+    content: "S"
+}
